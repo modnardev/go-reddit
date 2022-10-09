@@ -566,6 +566,7 @@ type OEmbed struct {
 	ThumbnailWidth  int    `json:"thumbnail_width,omitempty"`
 	Height          int    `json:"height,omitempty"`
 	Width           int    `json:"width,omitempty"`
+	HTML            string `json:"html,omitempty"`
 	ProviderName    string `json:"provider_name,omitempty"`
 	ThumbnailURL    string `json:"thumbnail_url,omitempty"`
 	ThumbnailHeight int    `json:"thumbnail_height,omitempty"`
